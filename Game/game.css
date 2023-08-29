@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.rapper{
+    background: #c9c0c0;
+    height: 25rem;
+    margin: 5rem 15rem;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 5rem;
+}
+h2{
+    padding-bottom: 1.5rem;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+h1{
+    padding-bottom: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: green;
+
+}
+p{
+    padding-bottom: 20px;
+}
+button{
+    background-color: green;
+    color: white;
+    padding: 5px 10px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+button:hover{
+    font-weight: bold;
+    transition: 0.2s;
+}
+#amount{
+    position: absolute;
+    bottom: 4rem;
+    left: 32em;
+}
